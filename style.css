@@ -1,0 +1,270 @@
+/*
+ COMP 4610 91.61 GUI Programming I
+ Erika Spehlmann erika_spehlmann@student.uml.edu
+ Created on: October 7, 2018
+ Copyright (c) 2018 by Erika Spehlmann. All rights reserved.
+
+ This webpage will serve as a location for all my future assignments. It has my
+ name, email, major and which class I am taking. There are links for each new
+ assignment that I will be completing in the future.
+*/
+
+/*The main wrapper*/
+#content{
+    margin: auto;
+    text-align: center;
+    background: white;
+    padding: 10px;
+    border: 10px;
+}
+
+/*a seperator between my main page, and info */
+#flowers {
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  padding: 0px;
+  border: 0px;
+  position: relative;
+  margin-top: 0px;
+}
+
+/*The header ( the banner with my name) */
+header, .full-width {
+  width: 100%;
+  height: 220px;
+  background: #CBA4BA;
+  position: relative;
+  margin: auto;
+  vertical-align: middle;
+  top: 120px;
+}
+
+
+/* the writing in my banner */
+.wrap h1{
+  width: 100%;
+  color: White;
+  position: absolute;
+  text-align: center;
+  font: 100px 'Cookie', Helvetica, sans-serif;
+}
+
+/*The picture of me*/
+#me {
+  left: 60px;
+  top: 80px;
+  position:absolute;
+}
+
+/*The main menu*/
+ul#navigation{
+  width: 100%;
+  margin-top: 380px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  padding: 15px;
+  top: 60px;
+  position: absolute;
+    color: #FF9580;
+}
+
+/*The items listed in the menu*/
+ul#navigation li {
+  display: inline;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px;
+  color: #FF9580;
+  font-weight: bold;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+      color: #F0A8E6;
+}
+
+a:hover{
+  color: #FFBFB3;
+}
+
+
+ul#navigation_contact{
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  padding: 15px;
+  top: 10px;
+  position: absolute;
+  background-color: #CBA4BA;
+}
+
+ul#navigation_contact li {
+  display: inline;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px;
+  color: #14141f;
+}
+
+/*The about section, will keep white background with lavender and black writing*/
+#about{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #CBA4BA;
+  text-transform: uppercase;
+  margin-top: 140px;
+  letter-spacing: .8px;
+  text-align: left;
+  left: 20px;
+top: 5000px;
+  padding-top: 40px;
+}
+
+/*paragraphs from about*/
+#about p{
+  text-transform: none;
+  width: 50%;
+  text-align: left;
+}
+
+#title_i p{
+  text-align: left;
+  font-size: 18px;
+  color: #14141f;
+  font-weight: bold;
+}
+
+/*collage should be to the right of text*/
+#about img{
+  float: right;
+  right: 30px;
+  height: 500px;
+  width: 500px;
+  top: 20px;
+}
+
+/*My list of interest,s no bullets, no underline*/
+ul#interests li{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 16px;
+  color: #14141f;
+  font-weight: normal;
+  text-transform: none;
+}
+
+/*School section*/
+#school {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #CBA4BA;
+  text-transform: uppercase;
+  margin-top: 140px;
+  letter-spacing: .8px;
+  text-align: right;
+  left: 20px;
+}
+
+#title_s p{
+  font-size: 18px;
+  color: #14141f;
+  font-weight: bold;
+  text-align: right;
+  left: 40px;
+  margin-top: 30px;
+}
+
+/*my list of assignments*/
+ul#assignments li{
+  list-style-type: none;
+  font-size: 16px;
+  color: #14141f;
+  font-weight: normal;
+  text-transform: none;
+}
+
+/*This image should be to the left of my text*/
+#school img{
+  float: left;
+  left: 30px;
+  height: 500px;
+  width: 500px;
+}
+
+#school p {
+  text-align: right;
+  text-transform: none;
+}
+
+/*My contact information. This should be smaller then the rest of my sections*/
+#contact{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #CBA4BA;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    text-align: right;
+    margin-top: 0px;
+    right: 20px;
+    padding: 0px;
+}
+
+/*Titles should be bold*/
+#title p{
+  font-size: 16px;
+  color: #14141f;
+  font-weight: bold;
+  text-align: right;
+  left: 40px;
+  margin-top: 30px;
+}
+
+/*Titles should be bold*/
+#title_ p{
+  font-size: 16px;
+  color: #14141f;
+  font-weight: bold;
+  text-align: right;
+  left: 40px;
+  margin-top: 30px;
+}
+
+/*My contact information must be smaller*/
+#contact p{
+  font-size: 14px;
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+}
+
+#contact img{
+    float: left;
+    left: 30px;
+    height: 400px;
+    width: 400px;
+}
+
+/*Parapgraphs that will be used in each section*/
+p{
+  font-size: 18px;
+  color: #14141f;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.validators {
+  max-width:40px;
+  max-height:20px;
+  padding-top: 15px;
+  width: auto;
+  float: right;
+}
